@@ -1,0 +1,7 @@
+name 'bwa'
+maintainer 'Eagle Genomics Ltd'
+maintainer_email 'chef@eaglegenomics.com'
+license 'apachev2'
+description 'Installs/Configures bwa'
+long_description 'Installs/Configures bwa'
+version '0.1.0'
