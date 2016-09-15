@@ -20,7 +20,7 @@ include_recipe 'apt' if platform?('debian', 'ubuntu')
 
 include_recipe 'build-essential'
 
-package ['tar'] do
+package [%w(tar bzip2)] do
   action :install
 end
 
